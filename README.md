@@ -71,13 +71,14 @@ Outputs: filename.txt
 
 ####WebApiController
 `yo aspnet-item:WebApiController filename`
-
 Outputs: Controllers/filename.cs
 
 
 ## Requirements
-[Node](http://nodejs.org/)[
+[Node](http://nodejs.org/)
+
 [yeoman](http://yeoman.io/) has to be installed. 
+
 `npm install -g yo bower`
 
 
