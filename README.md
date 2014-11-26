@@ -5,65 +5,73 @@ aspnet-item
 
 Yeoman generator for creating ASP.NET vNext items 
 
+Getting Started
+==========
+
+* Install: `npm install -g generator-aspnet-item`
+* Run: `yo aspnet-item:MvcController MyController` - or other options below
+
+
 Usage
 ==========
 
 The following item types are currently supported
 
-BowerJson
+####BowerJson
 `yo aspnet-item:BowerJson`
 Outputs: bower.json
 
-Class
+####Class
 `yo aspnet-item:Class filename`
 Outputs: filename.cs
 
-CoffeeScript
+####CoffeeScript
 `yo aspnet-item:CoffeeScript filename`
 Outputs: filename.coffee
 
-Config
+####Config
 `yo aspnet-item:Config`
 Outputs: config.json
 
-GruntFile
+####GruntFile
 `yo aspnet-item:GruntFile filename`
 Outputs: filename.json
 
-HTMLPage
+####HTMLPage
 `yo aspnet-item:HTMLPage filename`
 Outputs: filename.html
 
-Javascript
+####Javascript
 `yo aspnet-item:JScript filename`
 Outputs: filename.js
 
-JSON
+####JSON
 `yo aspnet-item:JSON filename`
 Outputs: filename.json
 
-MvcController
+####MvcController
 `yo aspnet-item:MvcController filename`
 Outputs: Controllers/filename.cs
 
-MvcView
+####MvcView
 `yo aspnet-item:MvcView filename`
 Outputs: Views/filename.cshtml
 
-PackageJson
+####PackageJson
 `yo aspnet-item:PackageJson`
 Outputs: package.json
 
-StartupClass
+####StartupClass
 `yo aspnet-item:StartupClass`
 Outputs: Startup.cs
 
-TextFile
+####TextFile
 `yo aspnet-item:TextFile filename`
 Outputs: filename.txt
 
-WebApiController
+####WebApiController
 `yo aspnet-item:WebApiController filename`
+
 Outputs: Controllers/filename.cs
 
 
