@@ -17,33 +17,33 @@ var AspnetItemGenerator = yeoman.generators.Base.extend({
       'Welcome ASP.NET vNext Item generator!'
     ));
 
-    var prompts = [{
-      type: 'confirm',
-      name: 'someOption',
-      message: 'Would you like to enable this option?',
-      default: true
-    }];
+    //var prompts = [{
+    //  type: 'confirm',
+    //  name: 'someOption',
+    //  message: 'Would you like to enable this option?',
+    //  default: true
+    //}];
 
-    this.prompt(prompts, function (props) {
-      this.someOption = props.someOption;
+    //this.prompt(prompts, function (props) {
+    //  this.someOption = props.someOption;
 
       done();
-    }.bind(this));
+    //}.bind(this));
   },
 
   writing: {
-    app: function () {
+    //app: function () {
       //this.dest.mkdir('app');
       //this.dest.mkdir('app/templates');
 
       //this.src.copy('_package.json', 'package.json');
       //this.src.copy('_bower.json', 'bower.json');
-    },
+    //},
 
-    projectfiles: function () {
+    //projectfiles: function () {
       //this.src.copy('editorconfig', '.editorconfig');
       //this.src.copy('jshintrc', '.jshintrc');
-    }
+    //}
   },
 
   end: function () {

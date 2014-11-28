@@ -1,7 +1,7 @@
 {
   "name": "generator-aspnet-item",
-  "version": "0.0.0",
-"description": "Yeoman generator for ASP.NET vNext items",
+  "version": "0.1.1",
+  "description": "Yeoman generator for ASP.NET vNext items",
   "license": "Apache License 2.0",
   "main": "app/index.js",
   "repository": "spboyer/generator-aspnet-item",

@@ -10,9 +10,7 @@ var AspnetItemGenerator = yeoman.generators.NamedBase.extend({
 
   writing: function () {
   	this.dest.mkdir('Controllers');
-  
   	this.template('Controller.cs', 'Controllers/' + this.name + '.cs', { namespace: 'MyNamespace', classname: this.name });
-  
   }
 });
 
