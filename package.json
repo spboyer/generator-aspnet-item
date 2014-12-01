@@ -1,6 +1,6 @@
 {
   "name": "generator-aspnet-item",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Yeoman generator for ASP.NET vNext items",
   "license": "Apache License 2.0",
   "main": "app/index.js",
@@ -16,11 +16,10 @@
   "scripts": {
     "test": "mocha"
   },
-  "files": [
-    "app"
-  ],
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "aspnet5",
+    "vnext"
   ],
   "dependencies": {
     "yeoman-generator": "^0.17.0",
