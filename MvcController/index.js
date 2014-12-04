@@ -1,17 +1,22 @@
 'use strict';
 var util = require('util');
 var yeoman = require('yeoman-generator');
+var path = require('path');
+var ScriptBase = require('../script-base.js');
 
 
-var AspnetItemGenerator = yeoman.generators.NamedBase.extend({
-  initializing: function () {
-    this.log('You called the aspnet-item subgenerator with the argument ' + this.name + '.');
-  },
+var NamedGenerator = module.exports = function NamedGenerator() {
+	ScriptBase.apply(this, arguments);
 
-  writing: function () {
-  	this.dest.mkdir('Controllers');
-  	this.template('Controller.cs', 'Controllers/' + this.name + '.cs', { namespace: 'MyNamespace', classname: this.name });
-  }
-});
+}
 
-module.exports = AspnetItemGenerator;
+util.inherits(NamedGenerator, ScriptBase);
+
+NamedGenerator.prototype.createNamedItem = function(){
+	this.generateTemplateFile(
+		'mvccontroller.cs',
+		this.name + '.cs',
+		{ namespace: 'MyNamespace', classname: this.name }	
+	);
+};
+
