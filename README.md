@@ -1,4 +1,4 @@
-# generator-aspnet-item [![Build Status](https://secure.travis-ci.org/spboyer/generator-aspnet-item.png?branch=master)](https://travis-ci.org/spboyer/generator-aspnet-item)
+# Subgenerators have been merged to [OmniSharp/generator-aspnet](http://github.com/OmniSharp/generator-aspnet) all future functionality and issues will be done in this repo.
 
 aspnet-item
 ==========
